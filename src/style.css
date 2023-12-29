@@ -1,0 +1,314 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=League+Spartan:wght@400;500;600;700;800&family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600;1,700&family=Roboto:ital@0;1&display=swap");
+
+* {
+  font-size: 16px;
+}
+a{
+  text-decoration: none;
+  color:#ffffff;
+}
+.contact {
+  margin: 33px 0 0 0;
+  display: flex;
+}
+.num svg {
+  margin-top: 10px;
+  margin-left: 85px;
+  height: 20px;
+  width: 20px;
+}
+.mail {
+  margin-top: 10px;
+  margin-left: 180px;
+}
+.mail svg {
+  height: 20px;
+  width: 20px;
+}
+.hai {
+  margin-top: 30px;
+  margin-left: 90px;
+}
+
+h1 {
+  color: #190d37;
+  font-family: "League Spartan", sans-serif;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 50px; /* 104.167% */
+  margin: 0;
+  margin-bottom: 30px;
+  margin-left: 90px;
+  height: 150px;
+  width: 520px;
+}
+h1 span {
+  color: #190d37;
+  font-family: "League Spartan", s;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 50px;
+}
+.text {
+  display: flex;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+.text-side {
+  width: 50%;
+  max-width: 100%;
+  height: auto;
+}
+.image-side {
+  width: 50%;
+}
+
+.image-side img {
+  border-radius: 0px 0px 200px 200px;
+  max-width: 100%;
+  height: auto;
+}
+
+.headline {
+  color: #331e6a;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px; /* 177.778% */
+  height: 128px;
+  width: 520px;
+  margin-left: 90px;
+}
+.btn {
+  margin: 10px auto;
+  margin-left: 90px;
+  margin-top: 30px;
+}
+.btn button {
+  border-radius: 4px;
+  background: #2f2f2f;
+  width: 138px;
+  height: 44px;
+}
+#btn-text {
+  color: #ffffff;
+}
+
+body {
+  background: #fff8f0;
+  font-family: "poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* What i Do section */
+.doing {
+  margin: 10px auto 10px auto;
+}
+#dotext {
+  color: #000;
+  text-align: center;
+  font-family: "League Spartan";
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 40px; /* 111.111% */
+  width: 700px;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+.text-do {
+  color: #190d37;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  width: 686px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.main-box {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+  margin-top: 48px;
+}
+.text-box {
+  color: #55206d;
+  text-align: center;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+  width: 300px;
+  padding: 8px 20px 20px 20px;
+}
+.leftin {
+  border-radius: 10px;
+  background: #fff;
+  box-shadow: 6px 2px 25px -9px rgba(0, 0, 0, 0.1);
+  margin: 20px;
+}
+h3 {
+  color: #000;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: uppercase;
+  width: 300px;
+  padding-top: 20px;
+  margin-left: 4px;
+}
+.bm {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+.bmh2 {
+  text-align: center;
+}
+.doing {
+  margin-left: auto;
+  margin-right: auto;
+}
+/*Projects*/
+
+.project-text {
+  color: #000;
+  text-align: center;
+  font-family: League Spartan;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  width: 700px;
+  line-height: 40px; /* 111.111% */
+  margin-left: auto;
+  margin-right: auto;
+}
+.display-text {
+  color: #190d37;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  width: 686px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.name {
+  margin-top: 50px;
+  margin-left: 20px;
+  color: #291854;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.desc {
+  margin-left: 20px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  color: #55206d;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+  width: 880px;
+}
+
+.link {
+  margin-left: 20px;
+  color: #6a87a3;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.link svg {
+  width: 14px;
+  height: 14px;
+  flex-shrink: 0;
+}
+
+.new {
+  display: flex;
+  margin-left: 190px;
+}
+
+.box {
+  margin-top: 48px;
+  width: 160px;
+  height: 160px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  background: #19acff;
+  margin-left: 190px;
+}
+.box1 {
+  margin-top: 48px;
+  width: 160px;
+  height: 160px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  background: #ffe819;
+  margin-left: 190px;
+}
+.box2 {
+  border-radius: 10px;
+  background: #ff1919;
+  margin-top: 48px;
+  width: 160px;
+  height: 160px;
+  flex-shrink: 0;
+  margin-left: 190px;
+}
+.place {
+  color: #fff;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  padding: 44px 46px 44px 47px;
+}
+
+.last {
+  width: 100%;
+  height: 58px;
+  flex-shrink: 0;
+  background: #000;
+  margin-left:auto;
+  margin-right:auto;
+  display:flex;
+  margin-top:127px;
+}
+.last span {
+  color: #fff;
+  font-family: 'Poppins',sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-align: center;
+  margin:auto;
+  width:290px;
+}
