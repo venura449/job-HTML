@@ -252,7 +252,7 @@ h3 {
 
 .new {
   display: flex;
-  margin-left: 190px;
+  margin-left: 160px;
 }
 
 .box {
@@ -262,7 +262,7 @@ h3 {
   flex-shrink: 0;
   border-radius: 10px;
   background: #19acff;
-  margin-left: 190px;
+  margin-left: 90px;
 }
 .box1 {
   margin-top: 48px;
@@ -271,7 +271,7 @@ h3 {
   flex-shrink: 0;
   border-radius: 10px;
   background: #ffe819;
-  margin-left: 190px;
+  margin-left: 90px;
 }
 .box2 {
   border-radius: 10px;
@@ -280,7 +280,7 @@ h3 {
   width: 160px;
   height: 160px;
   flex-shrink: 0;
-  margin-left: 190px;
+  margin-left: 90px;
 }
 .place {
   color: #fff;
