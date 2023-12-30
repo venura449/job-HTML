@@ -56,12 +56,17 @@ h1 span {
 .text {
   display: flex;
   max-width: 1440px;
-  margin: 0 auto;
+  justify-content: center;
+}
+@media screen and (max-width:768px){
+  .text{
+    display:block;
+    margin:0 auto;
+  }
 }
 .text-side {
   width: 50%;
   max-width: 100%;
-  height: auto;
 }
 .image-side {
   width: 50%;
@@ -70,7 +75,6 @@ h1 span {
 .image-side img {
   border-radius: 0px 0px 200px 200px;
   max-width: 100%;
-  height: auto;
 }
 
 .headline {
